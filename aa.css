@@ -1,0 +1,272 @@
+*{
+margins:0;
+padding: 0;
+font family: Century 
+}
+header{
+background-color: #fff;
+}
+
+ul{
+text-align: center;
+list-style-type:none;
+margin-top: 120px;
+}
+ul li{
+display:inline-block;
+}
+ul li a{
+text-decoration: none;
+color:#000;
+font-size: 32px;
+padding: 5px 20px;
+border: 1px solid #000;
+transition : 0.6 s ease;
+}
+ul li a:hover{
+background-color:#000;
+color:white;
+}
+.logo img{
+    float: left;
+    width: 200px;
+    height: 100px;
+    margin-top: 0px;
+position: absolute;
+top: 5%;
+    }
+. main{
+max-width: 1200px;
+margin: auto;
+}
+.title{
+position: absolute;
+top: 6%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.title h1{
+color:#000;
+text-decoration: underline;
+font-size:60px;
+}
+
+.h {
+width:100%;
+height:1px;
+border:0 none;
+margin-right: auto;
+margin-left: auto;
+margin-top:4%;
+margin-bottom: 4px;
+background-color: black;
+}
+.b {
+width:100%;
+height:1px;
+border:0 none;
+margin-right: auto;
+margin-left: auto;
+margin-top:4px;
+margin-bottom: 50px;
+background-color: black;
+}
+.tv {
+    margin-top :170 px;
+    margin-bottom: 100px;
+}
+.tv a{
+    position: center;
+    size-adjust:;
+}
+.tv img{
+    width: 80%;
+    height: 600px;
+    border-radius:10px;
+    position: center;
+}
+.c {
+width:150px;
+height:1px;
+border:0 none;
+margin-right: auto;
+margin-left: auto;
+margin-top:0;
+margin-bottom: 30px;
+background-color: black;
+}
+.trending{
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+.trending h1{
+    font-size: 34px;
+    text-align: center;
+    text-decoration: underline;
+}
+.trending p{
+    font-size: 24px;
+    text-align: center;
+}
+.info p{
+color: #fff;
+font-size: 15px;
+text-align: center;
+margin-bottom: 20px;
+}
+.row {
+margin-top: 5%;
+display: flex;
+justify-content: space between; 
+}
+.column {
+flex-basis:32%;
+border-radius: 10px;
+margin-left: 10px;
+margin-right:10px;
+margin-bottom: 10px;
+position: relative;
+overflow: hidden;
+}
+.column img{
+width: 100%;
+display: block;
+}
+.layer {
+background: transparent;
+height: 100%;
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+transition: 0.5sec;
+}
+.layer:hover{
+background: rgba(0,255,255,0.3);
+}
+.layer h3{
+width: 100%;
+font-weight:500;
+color: #000;
+text-decoration: underline;
+font size: 26px;
+bottom: 0;
+text-align: center;
+left:50%;
+transform: translateX(-50%);
+position: absolute;
+transition: 0.5 s;
+}
+.layer : hover h3{
+bottom : 49%;
+opacity: 1;
+}
+.facilities{
+width: 80%;
+margin: auto;
+text-align: center;
+padding-top: 100px;
+}
+.facilities h1{
+    font-size: 32px;
+    text-decoration: underline;   
+}
+.faci-column{
+flex-basis: 31%;
+border-radius: 10px;
+margin-bottom: 5%;
+margin-left: 7px;
+margin-right:7px;
+text-align: left;
+}
+.faci-column img{
+width: 100%;
+border-radius: 10px;
+}
+.faci-column a{
+    text-decoration: none;
+color: rgb(0, 0, 0);
+transition : 0.6 s ease;
+}
+.faci-column p{
+padding:0;
+text-align: center;
+font-size: 24px;
+}
+.cta {
+margin :  100px auto;
+width: 80%;
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2lN7v195dFbtTdb43Q9dHb0m5Q9kMAdm_SA&usqp=CAU);
+background-position: center;
+background-size: cover;
+background-repeat:repeat;
+border-radius:10px;
+text-align:center;
+padding:100px 0;
+}
+.cta h1{
+    color: #fff;
+    font-size: 30px;
+        text-decoration: underline;
+}
+.new {
+    margin-top :170 px;
+    margin-bottom: 100px;
+}
+.new a{
+    position: center;
+    size-adjust:;
+    color:#000;
+}
+.new h1{
+    color:#000;
+    font-size: 32px;
+}
+.new img{
+    width: 80%;
+    border-radius:10px;
+    position: center;
+}
+
+
+.cta a{
+    color: white;
+font-size: 20px;
+}
+.footer{
+width: 100%;
+text-align: center;
+padding: 30px 0;
+}
+.footer h4{
+margin-bottom:20px;
+margin-top:20px;
+font-size: 30px;
+text-decoration: underline;
+}
+.icons .fa{
+    color:#000;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.l {
+    width:80%;
+    height:2px;
+    border:0 none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:50px;
+    margin-bottom: 30px;
+    background-color: black;
+    }
+.f {
+        width:300px;
+        height:2px;
+        border:0 none;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top:50px;
+        margin-bottom: 30px;
+        background-color: black;
+        }
